@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notes | My Notes</title>
-    <link>https://example.com/</link>
-      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <title>Notes | Duc Nguyen blog</title>
+    <link>https://ducnguyenblog.netlify.app/</link>
+      <atom:link href="https://ducnguyenblog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Notes</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://ducnguyenblog.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Notes</title>
-      <link>https://example.com/</link>
+      <link>https://ducnguyenblog.netlify.app/</link>
     </image>
     
     <item>
       <title>Cách làm cây thư mục</title>
-      <link>https://example.com/ky-nang-r/dirtree/</link>
+      <link>https://ducnguyenblog.netlify.app/ky-nang-r/dirtree/</link>
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ky-nang-r/dirtree/</guid>
+      <guid>https://ducnguyenblog.netlify.app/ky-nang-r/dirtree/</guid>
       <description>
 
 
@@ -48,9 +48,9 @@ dir_tree(&amp;quot;D:/GITHUB/v3/content&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Tạo website bằng Hugo</title>
-      <link>https://example.com/ky-nang-r/hugo-setup/</link>
+      <link>https://ducnguyenblog.netlify.app/ky-nang-r/hugo-setup/</link>
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ky-nang-r/hugo-setup/</guid>
+      <guid>https://ducnguyenblog.netlify.app/ky-nang-r/hugo-setup/</guid>
       <description>
 
 
@@ -68,9 +68,9 @@ dir_tree(&amp;quot;D:/GITHUB/v3/content&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Bộ tài liệu về phân lập vi sinh vật Bergey&#39;s manual</title>
-      <link>https://example.com/post/bo-tai-lieu-bergey-manual/</link>
+      <link>https://ducnguyenblog.netlify.app/post/bo-tai-lieu-bergey-manual/</link>
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/bo-tai-lieu-bergey-manual/</guid>
+      <guid>https://ducnguyenblog.netlify.app/post/bo-tai-lieu-bergey-manual/</guid>
       <description>
 
 
