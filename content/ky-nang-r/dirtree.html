@@ -1,0 +1,34 @@
+---
+title: "Cách làm cây thư mục"
+linktitle: Cách làm cây thư mục
+date: "2022-07-04"
+type: book
+toc: false
+weight: 1
+---
+
+
+
+<div id="thuật-ngữ" class="section level2">
+<h2>Thuật ngữ</h2>
+<p>Cây thư mục = dir tree = a hierarchical directory</p>
+<p>Trong <code>R</code> sử dụng package <code>fs</code> với function <code>dir_tree</code>.</p>
+<pre class="r"><code>library(&#39;fs&#39;)
+dir_tree(&quot;D:/GITHUB/v3/content&quot;)</code></pre>
+<pre><code>## D:/GITHUB/v3/content
+## +-- cover.jpg
+## +-- ky-nang-r
+## |   +-- dirtree.html
+## |   +-- dirtree.Rmd
+## |   +-- dirtree.Rmd.lock~
+## |   \-- _index.md
+## +-- post
+## |   \-- 2020-12-01-r-rmarkdown
+## |       +-- index.html
+## |       +-- index.Rmd
+## |       \-- index_files
+## |           \-- figure-html
+## |               \-- pie-1.png
+## \-- _index.md</code></pre>
+<p>Trong <code>Visual Studio Code</code> sử dụng extension <a href="https://marketplace.visualstudio.com/items?itemName=Shinotatwu-DS.file-tree-generator"><code>file-tree-generator</code></a></p>
+</div>
