@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kỹ năng R | Duc Nguyen blog</title>
+    <title>Kỹ năng R | Duc Nguyen&#39;s blog</title>
     <link>https://ducnguyenblog.netlify.app/ky-nang-r/</link>
       <atom:link href="https://ducnguyenblog.netlify.app/ky-nang-r/index.xml" rel="self" type="application/rss+xml" />
     <description>Kỹ năng R</description>
@@ -22,7 +22,7 @@
 
 &lt;div id=&#34;thuật-ngữ&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Thuật ngữ&lt;/h2&gt;
-&lt;p&gt;Cây thư mục = dir tree = a hierarchical directory&lt;/p&gt;
+&lt;p&gt;Cây thư mục = dir tree = hierarchical directory&lt;/p&gt;
 &lt;p&gt;Trong &lt;code&gt;R&lt;/code&gt; sử dụng package &lt;code&gt;fs&lt;/code&gt; với function &lt;code&gt;dir_tree&lt;/code&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(&amp;#39;fs&amp;#39;)
 dir_tree(&amp;quot;D:/GITHUB/v3/content&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
@@ -32,14 +32,13 @@ dir_tree(&amp;quot;D:/GITHUB/v3/content&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 ## |   +-- dirtree.html
 ## |   +-- dirtree.Rmd
 ## |   +-- dirtree.Rmd.lock~
+## |   +-- hugo-setup.html
+## |   +-- hugo-setup.Rmd
 ## |   \-- _index.md
 ## +-- post
-## |   \-- 2020-12-01-r-rmarkdown
+## |   \-- 2022-07-04-bo-tai-lieu-bergey-manual
 ## |       +-- index.html
-## |       +-- index.Rmd
-## |       \-- index_files
-## |           \-- figure-html
-## |               \-- pie-1.png
+## |       \-- index.Rmd
 ## \-- _index.md&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Trong &lt;code&gt;Visual Studio Code&lt;/code&gt; sử dụng extension &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=Shinotatwu-DS.file-tree-generator&#34;&gt;&lt;code&gt;file-tree-generator&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;

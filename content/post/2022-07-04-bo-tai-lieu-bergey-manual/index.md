@@ -15,11 +15,13 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+toc: yes
+type: book
 ---
 
-# Bộ tài liệu Bergey's Manual có các lần xuất bản như sau:
+**Bộ tài liệu Bergey's Manual có các lần xuất bản như sau:**
 
-## [1. Bergey's Manual of Determinative Bacteriology]{style="color: blue;"}
+## <span style="color:blue">1. Bergey's Manual of Determinative Bacteriology</span>
 
 -   First edition, 1923
 
@@ -39,7 +41,7 @@ projects: []
 
 -   Ninth edition, 1994. Bergey's Manual of Determinative Bacteriology 9th edition. [view](https://archive.org/details/bergeysmanualofd0000unse_l7d4/page/757/mode/2up)
 
-## [2. Bergey's Manual of Systematic Bacteriology, 1st ed]{style="color: blue;"}
+## <span style="color:blue">2. Bergey's Manual of Systematic Bacteriology, 1st ed</span>
 
 -   Krieg, N.R. & Holt, J.G. (eds., 1984). Bergey's Manual of Systematic Bacteriology, 1st ed., vol. 1, Williams and Wilkins, Baltimore. [view](https://archive.org/details/bergeysmanualofs01atio)
 
@@ -49,7 +51,7 @@ projects: []
 
 -   Williams, S.T., Sharpe, M.E. & Holt, J.G. (eds., 1989). Bergey's Manual of Systematic Bacteriology, 1st ed., vol. 4, Williams and Wilkins, Baltimore. [view](https://archive.org/details/bergeysmanualofs04atio/page/n7/mode/1up)
 
-## [3. Bergey's Manual of Systematic Bacteriology, 2nd ed]{style="color: blue;"}
+## <span style="color:blue">3. Bergey's Manual of Systematic Bacteriology, 2nd ed</span>
 
 - Garrity, G.M., Boone, D.R. & Castenholz, R.W. (eds., 2001). Bergey's Manual of Systematic Bacteriology, 2nd ed., vol. 1, Springer-Verlag, New York, NY. [light](https://t.me/c/1605387342/114)
 
@@ -67,7 +69,7 @@ projects: []
 
 - Whitman, W.B., Goodfellow, M., Kämpfer, P., Busse, H.-J., Trujillo, M.E., Ludwig, W. & Suzuki, K.-i. (eds., 2012). Bergey's Manual of Systematic Bacteriology, 2nd ed., vol. 5, parts A and B, Springer-Verlag, New York, NY. [light](https://t.me/c/1605387342/120)
 
-## [4. Bergey's Manual of Systematics of Archaea and Bacteria (online version from 2015)]{style="color: green;"}.
+## <span style="color:green">4. Bergey's Manual of Systematics of Archaea and Bacteria (online version from 2015)]</span>
 
 Wiley version [view](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118960608) 
 

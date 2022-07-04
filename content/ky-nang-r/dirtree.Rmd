@@ -3,13 +3,13 @@ title: "Cách làm cây thư mục"
 linktitle: Cách làm cây thư mục
 date: "`r Sys.Date()`"
 type: book
-toc: false
+toc: no
 weight: 1
 ---
 
 ## Thuật ngữ
 
-Cây thư mục = dir tree = a hierarchical directory
+Cây thư mục = dir tree = hierarchical directory
 
 Trong `R` sử dụng package `fs` với function `dir_tree`.
 
