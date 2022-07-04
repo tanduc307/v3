@@ -69,7 +69,7 @@ type: book
 
 - Whitman, W.B., Goodfellow, M., Kämpfer, P., Busse, H.-J., Trujillo, M.E., Ludwig, W. & Suzuki, K.-i. (eds., 2012). Bergey's Manual of Systematic Bacteriology, 2nd ed., vol. 5, parts A and B, Springer-Verlag, New York, NY. [light](https://t.me/c/1605387342/120)
 
-## <span style="color:green">4. Bergey's Manual of Systematics of Archaea and Bacteria (online version from 2015)]</span>
+## <span style="color:green">4. Bergey's Manual of Systematics of Archaea and Bacteria (online version from 2015)</span>
 
 Wiley version [view](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118960608) 
 
