@@ -6,10 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: dark
-  theme_night: dark
-  font: classic
-  font_size: m
+  theme_day: minimal
+  theme_night: minimal
+  font: minimal
+  font_size: L
 
 # SEO
 
@@ -31,7 +31,7 @@ marketing:
 
 header:
   navbar:
-    enable: false
+    enable: true
     align: l
     show_logo: true
     show_language: false
@@ -58,8 +58,8 @@ locale:
 
 features:
   syntax_highlighter:
-    theme_day: github-light
-    theme-dark: dracula
+    theme_day: dracula
+    theme_dark: dracula
   math:
     enable: true
   privacy_pack:
