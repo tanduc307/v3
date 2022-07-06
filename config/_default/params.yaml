@@ -58,10 +58,10 @@ locale:
 
 features:
   syntax_highlighter:
-    theme_day: github-light
+    theme_day: github-dark
     theme-dark: dracula
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:

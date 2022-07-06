@@ -5,12 +5,65 @@
     <link>https://ducnguyenblog.netlify.app/</link>
       <atom:link href="https://ducnguyenblog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Notes</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ducnguyenblog.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Notes</title>
       <link>https://ducnguyenblog.netlify.app/</link>
     </image>
+    
+    <item>
+      <title>Bài tập 1</title>
+      <link>https://ducnguyenblog.netlify.app/xac-suat/bai-tap-1/</link>
+      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://ducnguyenblog.netlify.app/xac-suat/bai-tap-1/</guid>
+      <description>
+
+
+&lt;div id=&#34;bài-tập-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Bài tập 1&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Consider influenza epidemics for two parent heterosexual families. Suppose that the probability is 15% that at least one of the parents has contracted the disease. The probability that the father has contracted influenza is 10% while that the mother contracted the disease is 9%. What is the probability that both contracted influenza expressed as a whole number percentage? &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-CaffoStatistical&#34; role=&#34;doc-biblioref&#34;&gt;Caffo, n.d.&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Đề bài&lt;/strong&gt;: Giả sử có 1 loại dịch bệnh gây hại cho các gia đình trong một cộng đồng. Cho là xác suất bị bệnh của ít nhất 1 người trong 2 người (cha hay mẹ) là 15%. Xác xuất bị bệnh của cha là 10%, trong khi của mẹ là 9%. Hỏi xác suất bị bệnh của cả cha và mẹ trong các gia đình ở cộng đồng đó?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Đáp án&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Áp dụng theo cách tiếp cận tư duy thiết kế (&lt;a href=&#34;https://mitsloan.mit.edu/ideas-made-to-matter/design-thinking-explained&#34;&gt;design thinking&lt;/a&gt;), đầu tiên cần khảo sát kỹ vấn đề, bài toán đặt ra, sau đó mới tìm hiểu các hướng giải bài toán khác nhau để đạt được mục tiêu đề bài.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Most people don’t make much of an effort to explore the problem space before exploring the solution space,” said MIT Sloan professor Steve Eppinger.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;understand-problem-space&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Understand problem space&lt;/h3&gt;
+&lt;p&gt;Từ dữ liệu cung cấp, ta đặt các ký hiệu sau:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(P(A)\)&lt;/span&gt; là xác suất bị bệnh của cha (ở đây là 10% = 0.1), &lt;span class=&#34;math inline&#34;&gt;\(P(B)\)&lt;/span&gt; là xác suất bị bệnh của mẹ (9% = 0.09).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(P(A\cup B)\)&lt;/span&gt; hay &lt;span class=&#34;math inline&#34;&gt;\(P(A + B)\)&lt;/span&gt; là xác suất bị bệnh của ít nhất 1 trong 2 người (or/hoặc) là 15% = 0.15.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(P(A\cap B)\)&lt;/span&gt; hay &lt;span class=&#34;math inline&#34;&gt;\(P(AB)\)&lt;/span&gt; là xác suất bị bệnh của cả cha và mẹ (and/và) cần tìm.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thể hiện trên Venn diagram như sau:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# load Venn diagram package
+library(&amp;quot;VennDiagram&amp;quot;)
+
+# move to new plotting page
+grid.newpage()
+
+# create pairwise Venn diagram
+draw.pairwise.venn(area1 = 10, area2 = 9, cross.area = 4,
+                   category = c(&amp;quot;P(A)&amp;quot;, &amp;quot;P(B)&amp;quot;), fill = c(&amp;quot;Blue&amp;quot;, &amp;quot;Green&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://ducnguyenblog.netlify.app/xac-suat/bai-tap-1_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;(polygon[GRID.polygon.1], polygon[GRID.polygon.2], polygon[GRID.polygon.3], polygon[GRID.polygon.4], text[GRID.text.5], text[GRID.text.6], text[GRID.text.7], text[GRID.text.8], text[GRID.text.9])&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(P(A\cup B) = P(A) + P(B) - P(AB)\)&lt;/span&gt; do đó (thus)&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[0.15 = 0.10 + 0.09 - P(AB)\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tài-liệu-tham-khảo&#34; class=&#34;section level3 unnumbered&#34;&gt;
+&lt;h3&gt;Tài liệu tham khảo&lt;/h3&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-CaffoStatistical&#34; class=&#34;csl-entry&#34;&gt;
+Caffo, Brian. n.d. &lt;span&gt;“Statistical Inference.”&lt;/span&gt; https://www.coursera.org/learn/statistical-inference.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Cách làm cây thư mục</title>
@@ -145,7 +198,7 @@ dir_tree(&amp;quot;D:/GITHUB/v3/content&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Whitman, W.B., Goodfellow, M., Kämpfer, P., Busse, H.-J., Trujillo, M.E., Ludwig, W. &amp;amp; Suzuki, K.-i. (eds., 2012). Bergey&amp;rsquo;s Manual of Systematic Bacteriology, 2nd ed., vol. 5, parts A and B, Springer-Verlag, New York, NY. &lt;a href=&#34;https://t.me/c/1605387342/120&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;light&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;span-stylecolorgreen4-bergeys-manual-of-systematics-of-archaea-and-bacteria-online-version-from-2015span&#34;&gt;&lt;span style=&#34;color:green&#34;&gt;4. Bergey&amp;rsquo;s Manual of Systematics of Archaea and Bacteria (online version from 2015)]&lt;/span&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;span-stylecolorgreen4-bergeys-manual-of-systematics-of-archaea-and-bacteria-online-version-from-2015span&#34;&gt;&lt;span style=&#34;color:green&#34;&gt;4. Bergey&amp;rsquo;s Manual of Systematics of Archaea and Bacteria (online version from 2015)&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Wiley version &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/book/10.1002/9781118960608&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Hướng dẫn cách tải tài liệu &lt;a href=&#34;https://youtu.be/wcwJjPpddXA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;5-các-tài-liệu-khác&#34;&gt;5. Các tài liệu khác&lt;/h2&gt;
