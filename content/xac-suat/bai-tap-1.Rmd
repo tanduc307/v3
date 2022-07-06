@@ -21,7 +21,9 @@ nocite: |
 
 ### Understand problem space
 
-Từ dữ liệu cung cấp, ta đặt các ký hiệu sau:
+Từ dữ liệu cung cấp, ta đặt các ký hiệu sau: 
+
+- $A$ và $B$ lần lượt là tình trạng (sự kiện/event) sức khỏe của cha và mẹ. 
 
 - $P(A)$ là xác suất bị bệnh của cha (ở đây là 10% = 0.1), $P(B)$ là xác suất bị bệnh của mẹ (9% = 0.09).
 
@@ -49,7 +51,7 @@ Xác xuất để cả hai cha mẹ (intersect) cùng bị bệnh là:
 
 $P(A\cup B) = P(A) + P(B) - P(AB)$ do đó (thus)
 
-$\to $0.15 = 0.10 + 0.09 - P(AB)$ $\to $P(AB) = 0.04 = 4%$
+$\to $0.15 = 0.10 + 0.09 - P(AB)$ $\to $P(AB) = 0.04 = 4\%$
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CvnmoCuIN08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -7211,8 +7211,8 @@ a.text-dark:hover, a.text-dark:focus {
  *  Wowchemy's Core Style
  **************************************************/
 html {
-  font-family: "Roboto", sans-serif;
-  font-size: 16.17px;
+  font-family: "Merriweather", sans-serif;
+  font-size: 13.86px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65;
   scroll-padding-top: 70px; }
@@ -7221,7 +7221,7 @@ html {
       scroll-padding-top: 50px; } }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 21px; } }
+    font-size: 18px; } }
 
 body {
   font-family: inherit;
@@ -7299,7 +7299,7 @@ ul.task-list li input[type='checkbox'] {
 
 /* Navigation bar text */
 .navbar-light {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizelegibility; }
@@ -7311,7 +7311,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
@@ -7358,11 +7358,11 @@ a:focus {
 
 .dark a,
 .dark h3.article-title a:hover {
-  color: #bbdefb; }
+  color: #f76497; }
 
 .dark a:not(.btn):hover,
 .dark a:not(.btn):focus {
-  color: #bbdefb; }
+  color: #f76497; }
 
 pre,
 code {
@@ -8136,7 +8136,7 @@ a.summary-link {
   height: 70px;
   background: #fff;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
-  font-size: 16.17px;
+  font-size: 13.86px;
   padding: 0 1rem; }
   .navbar .nav-item {
     position: relative; }
@@ -8160,25 +8160,25 @@ a.summary-link {
         font-weight: bold !important;
         color: #2962ff !important; }
   .navbar .dropdown-menu {
-    font-size: 16.17px; }
+    font-size: 13.86px; }
   .navbar .dropdown-item.active,
   .navbar .dropdown-item-active {
     font-weight: bold;
     color: #2962ff !important; }
 
 .dark .navbar {
-  background: #282a36;
+  background: #141622;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(255, 255, 255, 0.11); }
   .dark .navbar .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.85); }
     .dark .navbar .navbar-nav .nav-link.active, .dark .navbar .navbar-nav .nav-link:hover, .dark .navbar .navbar-nav .nav-link:focus {
-      color: rgba(255, 255, 255, 0.8); }
+      color: white; }
     .dark .navbar .navbar-nav .nav-link.active {
       font-weight: bold !important;
-      color: rgba(255, 255, 255, 0.8) !important; }
+      color: white !important; }
   .dark .navbar .dropdown-item.active,
   .dark .navbar .dropdown-item-active {
-    color: rgba(255, 255, 255, 0.8) !important; }
+    color: white !important; }
 
 .navbar-toggler {
   border: 0 !important;
@@ -8186,7 +8186,7 @@ a.summary-link {
   z-index: 1030; }
 
 .dark .navbar-toggler {
-  color: white; }
+  color: rgba(255, 255, 255, 0.6); }
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
@@ -8219,7 +8219,7 @@ a.summary-link {
   z-index: 1030; }
 
 .dark .navbar-brand {
-  color: white; }
+  color: #fff; }
 
 .navbar-brand img {
   width: auto;
@@ -8234,7 +8234,7 @@ a.summary-link {
   color: #34495e; }
 
 .dark #navbar-main .main-menu-item ul li .nav-link {
-  color: white; }
+  color: rgba(255, 255, 255, 0.6); }
 
 @media (max-width: 991.98px) {
   .navbar-brand-mobile-wrapper {
@@ -8259,7 +8259,7 @@ a.summary-link {
     background-color: #fff;
     text-align: center !important; }
   .dark .navbar-collapse {
-    background-color: #282a36; }
+    background-color: #141622; }
   #navbar-main .main-menu-item .nav-item {
     padding: 10px 15px !important; }
   #navbar-main .main-menu-item .nav-item .nav-link {
@@ -8282,16 +8282,16 @@ ul.nav-icons li.nav-item a.nav-link {
   padding: 0; }
 
 .dark .dropdown-menu {
-  background-color: #282a36 !important;
-  color: white !important; }
+  background-color: #141622 !important;
+  color: rgba(255, 255, 255, 0.6) !important; }
 
 .dropdown-item {
   background-color: #fff !important;
   color: #34495e !important; }
 
 .dark .dropdown-item {
-  background-color: #282a36 !important;
-  color: white !important; }
+  background-color: #141622 !important;
+  color: rgba(255, 255, 255, 0.6) !important; }
 
 /*************************************************
  *  Pager.
@@ -8957,7 +8957,7 @@ html[dir='rtl'] body {
   color: #1565c0; }
 
 .home-section.dark a {
-  color: #bbdefb; }
+  color: #f76497; }
 
 /* Override dark colors that may be inherited from body.dark */
 .home-section.dark,
@@ -9045,7 +9045,7 @@ html[dir='rtl'] body {
 
 .section-subheading {
   font-size: 1.25rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 0.5rem; }

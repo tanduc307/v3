@@ -25,6 +25,7 @@ nocite: |
 <h3>Understand problem space</h3>
 <p>Từ dữ liệu cung cấp, ta đặt các ký hiệu sau:</p>
 <ul>
+<li><p><span class="math inline">\(A\)</span> và <span class="math inline">\(B\)</span> lần lượt là tình trạng (sự kiện/event) sức khỏe của cha và mẹ.</p></li>
 <li><p><span class="math inline">\(P(A)\)</span> là xác suất bị bệnh của cha (ở đây là 10% = 0.1), <span class="math inline">\(P(B)\)</span> là xác suất bị bệnh của mẹ (9% = 0.09).</p></li>
 <li><p><span class="math inline">\(P(A\cup B)\)</span> hay <span class="math inline">\(P(A + B)\)</span> là xác suất bị bệnh của ít nhất 1 trong 2 người (or/hoặc) là 15% = 0.15.</p></li>
 <li><p><span class="math inline">\(P(A\cap B)\)</span> hay <span class="math inline">\(P(AB)\)</span> là xác suất bị bệnh của cả cha và mẹ (and/và) cần tìm.</p></li>
@@ -46,7 +47,7 @@ draw.pairwise.venn(area1 = 10, area2 = 9, cross.area = 4,
 <h3>Explore solution space</h3>
 <p>Xác xuất để cả hai cha mẹ (intersect) cùng bị bệnh là:</p>
 <p><span class="math inline">\(P(A\cup B) = P(A) + P(B) - P(AB)\)</span> do đó (thus)</p>
-<p>$<span class="math inline">\(0.15 = 0.10 + 0.09 - P(AB)\)</span> $<span class="math inline">\(P(AB) = 0.04 = 4%\)</span></p>
+<p>$<span class="math inline">\(0.15 = 0.10 + 0.09 - P(AB)\)</span> $<span class="math inline">\(P(AB) = 0.04 = 4\%\)</span></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CvnmoCuIN08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 </div>
